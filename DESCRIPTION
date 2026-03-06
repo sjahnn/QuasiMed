@@ -1,0 +1,22 @@
+Package: QuasiMed
+Type: Package
+Title: Quasi-Regression Mehtod for Mediation Analysis of Zero-Inflated Single-Cell Data
+Version: 0.0.1
+Authors@R: 
+    c(person("Seungjun", "Ahn", email = "seungjun.ahn@mountsinai.org",
+		 role = c("cre", "aut"),
+	    comment = c(ORCID = "0000-0002-4816-8924")),
+    person("Donald", "Porchia", email = "donald.porchia@ufl.edu",
+		 role = c("aut")),
+    person("Zhigang", "Li", email = "zhigang.li@ufl.edu",
+		 role = c("aut")))
+Description: A mediation framework specialized for single-cell data that comprises the following: (1) mediator candidates screening through penalization and marginal modeling, (2) estimation of indirect effects through the average expression and proportion of expressing cells, and (3) hypothesis testing with multiciplity control. Full methodological details are available in our recent preprint.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 3.5.0)
+Imports: glmnet
+Suggests: Seurat, MASS, foreach, dply, knitr, rmarkdown, testthat (>= 3.0.0)
+LazyData: true
+Config/testthat/edition: 3
