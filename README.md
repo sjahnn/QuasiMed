@@ -27,4 +27,4 @@ how subject-level mediator features are constructed, and how additional filterin
 directly with `run_quasimed()` or through the wrapper function `run_singlecell_model()`.
 
 - We used pre-processed single-cell gene count data for vascular and epithelial cells (Vasculature cells.rds) together with de-identified clinical metadata (individual metadata deidentified.tsv) from the ROSMAP study.
-- Data were obtained from the AD/Aging Brain Atlas (https://compbio.mit.edu/ad aging brain/ ) .
+- Please download these data from the AD/Aging Brain Atlas (https://compbio.mit.edu/ad_aging_brain/). We do not own the data, so the data is not saved in this GitHub repository.
